@@ -1,3 +1,10 @@
+body {
+    background-color: #f0f0f0;
+}
+h1, h3 {
+    font-family: "Courier New", Courier, monospace;
+}
+
 .header.top-line {
     height: 40px;
     line-height: 40px;
@@ -6,6 +13,19 @@
 
 .margin-top-5 {
     margin-top: 5px;
+}
+
+.main-body-container {
+    background-color: #fff;
+    border: 1px solid #d1d1d1;
+}
+
+.caption a {
+    color: #444;
+}
+
+.img-nerd {
+    width: 400px;
 }
 
 .page-container {

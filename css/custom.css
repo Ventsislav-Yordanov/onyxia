@@ -41,6 +41,23 @@ h1, h3 {
     background-color: #464646;
 }
 
+.tab-image {
+    height: 200px !important;
+    width: 300px !important;
+}
+
+.footer-header {
+    color: #efefef;
+}
+
+.footer-list {
+    list-style: none;
+}
+
+.footer-list li a {
+    color: #afafaf;
+}
+
 /***
 Social Icons
 ***/

@@ -1,4 +1,21 @@
 var Index = function () {
+    
+	function menubarHover(){
+		navigationUl = document.getElementsByClassName("navbar-nav");
+		var naligationLi = navigationUl[0].childNodes;
+		for (var i = 0; i < naligationLi.length; i += 1) {
+			naligationLi[i].addEventListener('mouseover', onMouseover);
+			naligationLi[i].addEventListener('mouseout', onMouseout);
+		}
+		function onMouseover(ev) {
+			this.style.background = '#c7c7c7';
+		}
+
+		function onMouseout(ev) {
+			this.style.background = '';
+		}
+	};
+	menubarHover();
 
     return {
 

@@ -76,3 +76,26 @@ var Index = function () {
 
     };
 }();
+
+
+ function initialize() {
+        var map_canvas = document.getElementById('map_canvas');
+        var map_options = {
+          center: new google.maps.LatLng(42.7403, 23.3550),
+          zoom: 12,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(map_canvas, map_options)
+      }
+	  
+	  
+      google.maps.event.addDomListener(window, 'load', initialize);
+
+
+
+
+
+
+
+
+

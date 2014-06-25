@@ -38,7 +38,7 @@ h1, h3 {
     height: auto;
     clear:both;
     padding-top:20px;
-    background-color: #464646;
+    background-color: rgba(100,100,100,0.7);
 }
 
 .tab-image {

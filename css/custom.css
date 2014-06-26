@@ -428,12 +428,10 @@ Slider
 
             .figureImage img {
                 border-radius:10px;
-            }
+                margin-left:auto;
+                margin-right:auto;
 
-        .bigImages {
-            width: 700px;
-            height: 400px;
-         }
+            }
 
 .SoftUniJokesList {
     background-color:#f0f0f0;

@@ -408,3 +408,46 @@ Slider
     background-image: url(../img/shadow2.png);
     background-size: 100% 100%
 }
+
+.figureImage {
+            padding: 30px;
+            text-align: center;
+            background-color:#f0f0f0;
+        }
+
+            .figureImage  figcaption {
+                background-color:black;
+                color:white;
+                border-radius:15px 0 15px 15px;
+                width:300px;
+                margin-left:390px;
+                margin-bottom:10px;
+                padding: 10px;
+                font-size: 20px;
+            }
+
+            .figureImage img {
+                border-radius:10px;
+            }
+
+        .bigImages {
+            width: 700px;
+            height: 400px;
+         }
+
+.SoftUniJokesList {
+    background-color:#f0f0f0;
+    color:white;
+    margin:30px 200px;
+    padding:10px;
+    border-radius:10px;
+    font-size:18px;
+}
+
+    .SoftUniJokesList li {
+        background-color:#444;
+        list-style-position:inside;
+        margin:10px;
+        padding:10px;
+        border-radius:15px 0 15px 15px;
+    }

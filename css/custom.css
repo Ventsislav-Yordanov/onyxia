@@ -205,3 +205,20 @@ Slider
     width:40px !important;
     height:50px !important;
 }
+
+.SoftUniJokesList {
+    background-color:#f0f0f0;
+    color:white;
+    margin:30px 200px;
+    padding:10px;
+    border-radius:10px;
+    font-size:18px;
+}
+
+    .SoftUniJokesList li {
+        background-color:#444;
+        list-style-position:inside;
+        margin:10px;
+        padding:10px;
+        border-radius:15px 0 15px 15px;
+    }

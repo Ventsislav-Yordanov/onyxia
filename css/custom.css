@@ -39,7 +39,7 @@ h1, h3 {
     height: auto;
     clear: both;
     padding-top: 20px;
-    background-color: #464646;
+    background-color: rgba(100, 100, 100, 0.7);
 }
 
 .tab-image {
@@ -56,7 +56,14 @@ h1, h3 {
 }
 
 .footer-list li a {
-    color: #afafaf;
+    color: #f5f5f5;
+}
+
+.footer .footer-separator {
+    height: 150px;
+    border-left: 1px solid #f5f5f5;
+    display: inline-block;
+    margin-bottom: 20px;
 }
 
 /***
@@ -408,44 +415,55 @@ Slider
     background-image: url(../img/shadow2.png);
     background-size: 100% 100%
 }
-
 .figureImage {
-            padding: 30px;
-            text-align: center;
-            background-color:#f0f0f0;
-        }
-
-            .figureImage  figcaption {
-                background-color:black;
-                color:white;
-                border-radius:15px 0 15px 15px;
-                width:30%;
-                margin-left:35%;
-                margin-bottom:2%;
-                padding: 2%;
-                font-size: 20px;
-            }
-
-            .figureImage img {
-                border-radius:10px;
-                margin-left:auto;
-                margin-right:auto;
-
-            }
-
-.SoftUniJokesList {
+    padding: 30px;
+    text-align: center;
     background-color:#f0f0f0;
-    color:white;
-    margin:30px 200px;
-    padding:10px;
-    border-radius:10px;
-    font-size:18px;
 }
 
-    .SoftUniJokesList li {
-        background-color:#444;
-        list-style-position:inside;
-        margin:10px;
-        padding:10px;
-        border-radius:15px 0 15px 15px;
-    }
+.figureImage  figcaption {
+    background-color:black;
+    color:white;
+    border-radius:15px 0 15px 15px;
+    width:30%;
+    margin-left:35%;
+    margin-bottom:2%;
+    padding: 2%;
+    font-size: 20px;
+}
+
+.figureImage img {
+    border-radius:10px;
+}
+
+.bigImages {
+    width: 700px;
+    height: 400px;
+}
+
+.SoftUniJokesList {
+    background-color: #f0f0f0;
+    color: white;
+    margin: 30px 200px;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.SoftUniJokesList li {
+    background-color: #444;
+    list-style-position: inside;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 15px 0 15px 15px;
+}
+
+.logo a {
+    font-weight: bold;
+    font-style: italic;
+    color: #fff;
+}
+
+.logo a:hover {
+    text-decoration: none;
+}

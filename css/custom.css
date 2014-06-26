@@ -222,3 +222,29 @@ Slider
         padding:10px;
         border-radius:15px 0 15px 15px;
     }
+
+.figureImage {
+            padding: 30px;
+            text-align: center;
+            background-color:#f0f0f0;
+        }
+
+            .figureImage  figcaption {
+                background-color:black;
+                color:white;
+                border-radius:15px 0 15px 15px;
+                width:300px;
+                margin-left:390px;
+                margin-bottom:10px;
+                padding: 10px;
+                font-size: 20px;
+            }
+
+            .figureImage img {
+                border-radius:10px;
+            }
+
+        .bigImages {
+            width: 700px;
+            height: 400px;
+        }

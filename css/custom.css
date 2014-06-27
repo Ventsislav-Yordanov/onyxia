@@ -804,7 +804,7 @@ Slider
 /* validators */
 
 .html5Validator {
-    background:url(../img/validators/w3chtml5.png);
+    background:url(../img/validators/W3CHTML.png);
     border:none;
     padding:0;
     width:82px;
@@ -812,7 +812,7 @@ Slider
 }
 
 .css3Validator {
-    background:url(../img/validators/w3ccss3.png);
+    background:url(../img/validators/W3CCSS.png);
     border:none;
     padding:0;
     width:82px;

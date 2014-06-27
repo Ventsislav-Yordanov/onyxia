@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 body {
     background-color: #f0f0f0;
 }
@@ -328,7 +327,7 @@ Slider
       border-bottom-left-radius:5px;
       margin-right:20px;
   }
-=======
+
 body {
     background-color: #f0f0f0;
 }
@@ -817,4 +816,32 @@ Slider
     padding:0;
     width:82px;
     height:17px;
+}
+
+.knows-html {
+    font-size: 18px;
+}
+
+.index-jokes .joke {
+    background-color: #fff;
+    padding: 10px;
+    -webkit-box-shadow: 0px 0px 3px 0px rgba(50, 50, 50, 0.75);
+    -moz-box-shadow:    0px 0px 3px 0px rgba(50, 50, 50, 0.75);
+    box-shadow:         0px 0px 3px 0px rgba(50, 50, 50, 0.75);
+}
+
+.index-jokes .joke:hover {
+    background-color: #4e4e4e;
+    color: #fff;
+    transition: background-color 0.4s ease-in;
+    /*transition: color 0.5s ease;*/
+}
+
+.thumbnail {
+    min-height: 400px;
+}
+
+.index-why-list {
+    list-style: none;
+    text-align: left;
 }

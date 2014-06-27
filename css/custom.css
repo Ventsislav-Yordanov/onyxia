@@ -709,7 +709,7 @@ Slider
 }
 
 .why-white-line {
-    margin: 0;
+    margin-bottom: 20px;
 }
 
 .why-thumbnail {
@@ -844,4 +844,8 @@ Slider
 .index-why-list {
     list-style: none;
     text-align: left;
+}
+
+.caption_joke {
+    font-weight: bold;
 }

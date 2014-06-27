@@ -469,3 +469,21 @@ Slider
 .logo a:hover {
     text-decoration: none;
 }
+
+/* validators */
+
+.html5Validator {
+    background:url(../img/validators/w3chtml5.png);
+    border:none;
+    padding:0;
+    width:82px;
+    height:17px;
+}
+
+.css3Validator {
+    background:url(../img/validators/w3ccss3.png);
+    border:none;
+    padding:0;
+    width:82px;
+    height:17px;
+}

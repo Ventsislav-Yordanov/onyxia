@@ -444,10 +444,10 @@ Slider
 }
 
 .SoftUniJokesList {
-    background-color: #f0f0f0;
+    background-color: #f0f0f2;
     color: white;
     margin: 30px 200px;
-    padding: 10px;
+    padding: 10px; 
     border-radius: 10px;
     font-size: 18px;
 }

@@ -16,6 +16,33 @@ var Index = function () {
 		}
 	};
 	menubarHover();
+	
+	function buttonTeamSelect(){
+		var divs = document.getElementsByClassName("thumb");
+		var submenu = document.getElementsByClassName("submenu");
+		for (var i = 0; i < divs.length; i += 1) {
+			divs[i].addEventListener('click', onClick);
+		}
+		
+		function onClick(ev) {
+			var previousIndex;
+			for (var i = 0; i < submenu.length; i += 1) {
+				if(submenu[i].style.display === 'block'){
+					previousIndex = i;
+				}
+				submenu[i].style.display = 'none';
+			}
+			
+			var index = this.getAttribute("index");
+			if(previousIndex != index){
+				submenu[index].style.display = 'block';
+			}
+			else {
+				submenu[index].style.display = 'none';
+			}
+		}
+	};
+	buttonTeamSelect();
 
     return {
 

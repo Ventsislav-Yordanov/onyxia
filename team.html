@@ -1,259 +1,261 @@
 ﻿<!DOCTYPE html>
 <html>
-<head lang="en">
-    <script type="text/JavaScript" src="css/onyxia.js">
+    <head lang="en">
+        <script type="text/JavaScript" src="css/onyxia.js">
 
-    </script>
-    <meta charset="UTF-8">
-    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
-    <link href="css/rs-style.css" rel="stylesheet" type="text/css"/>
-    <link href="css/rs-settings.css" rel="stylesheet" type="text/css"/>
-    <link href="css/custom.css" rel="stylesheet" type="text/css"/>
-    <title>SoftUni Fun Site</title>
-</head>
-<body>
-<div class="header top-line">
-    <div class="containerOni">
-        <div class="pull-left logo">
-            <a href="index.html">SOFTWARE UNIVERSITY FUN ZONE</a>
-        </div>
+        </script>
+        <meta charset="UTF-8">
+        <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css"/>
+        <link href="css/rs-style.css" rel="stylesheet" type="text/css"/>
+        <link href="css/rs-settings.css" rel="stylesheet" type="text/css"/>
+        <link href="css/custom.css" rel="stylesheet" type="text/css"/>
+        <title>SoftUni Fun Site</title>
+    </head>
+    <body>
+        <div class="header top-line">
+            <div class="container">
+                <div class="pull-left logo">
+                    <a href="index.html">SOFTWARE UNIVERSITY FUN ZONE</a>
+                </div>
 
-        <div class="pull-right margin-top-5">
-            <ul class="social-icons social-icons-color">
-                <li>
-                    <a href="#" data-original-title="linkedin" class="linkedin"></a>
-                </li>
-                <li>
-                    <a href="#" data-original-title="facebook" class="facebook"></a>
-                </li>
-                <li>
-                    <a href="#" data-original-title="googleplus" class="googleplus"></a>
-                </li>
-                <li>
-                    <a href="#" data-original-title="twitter" class="twitter"></a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</div>
-<nav class="navbar navbar-default" role="navigation">
-    <div class="container-fluid">
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-        </div>
-        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav">
-                <li>
-                    <a href="index.html"><i class="glyphicon glyphicon-home"></i> Home</a>
-                </li>
-                <li><a href="gifs.html"><i class="glyphicon glyphicon-film"></i> Moving images</a></li>
-                <li><a href="pictures.html"><i class="glyphicon glyphicon-picture"></i> Pictures</a></li>
-                <li><a href="softuni_jokes.html"><i class="glyphicon glyphicon-comment"></i> SoftUni Jokes</a></li>
-                <li><a href="why.html"><i class="glyphicon glyphicon-question-sign"></i> Why SoftUni</a></li>
-                <li class="active"><a href="team.html"><i class="glyphicon glyphicon-user"></i> Team ONYXIA</a></li>
-            </ul>
-        </div>
-    </div>
-</nav>
-<div id="containerOni">
-    <div class="row">
-        <div id="oniLogo">
-            <div><h2>Web Fundamentals (HTML + CSS) май 2014 TEAM "ONYXIA"</h2></div>
-            <div><img src="img/softuni_logo.jpg" alt="Alternate Text"/></div>
-        </div>
-        <div class="thumb" index="0">
-            <input type="button" name="name" value="Momchil Stefanov " />
-        </div>
-        <div class="thumb" index="1">
-            <input type="button" name="name" value="Ivan Atanasov " />
-        </div>
-        <div class="thumb" index="2">
-            <input type="button" name="name" value="Milen Donchev " />
-        </div>
-        <div class="thumb" index="3">
-            <input type="button" name="name" value="Kaloqn Dimitrov " />
-        </div>
-        <div class="thumb" index="4">
-            <input type="button" name="name" value="Ventsislav Yordanov" />
-        </div>
-        <div class="thumb" index="5">
-            <input type="button" name="name" value="Georgi Yanakiev " />
-        </div>
-        <div class="thumb" index="6">
-            <input type="button" name="name" value="Dian Atanasov " />
-        </div>
-		
-		<div id="members"></div>
-		<script id="members-template" type='text/x-handlebars-template'>
-		{{#each members}}
-			<div class="submenu" style="display:none">
-				<img src="{{imgSrc}}" alt="{{name}}"/>
-				<div class="sectionOni">
-					<div>Name:</div>
-					<div>{{name}}</div>
-				</div>
-				<div class="sectionOni">
-					<div>SoftUni Account Name:</div>
-					<div>{{accountName}}</div>
-				</div>
-				<div class="sectionOni">
-					<div>City:</div>
-					<div>{{city}}</div>
-				</div>
-				<div class="sectionOni">
-					<div>Email:</div>
-					<div>{{email}}</div>
-				</div>
-				<div class="sectionOni">
-					<div>GitHub Page:</div>
-					<div><a href="{{githubPage}}">{{githubPage}}</a></div>
-				</div>
-				<div class="sectionOni">
-					<div>Work on the Team Project:</div>
-					<div>{{workDone}}</div>
-				</div>
-			</div>
-		{{/each}}
-		</script>
-    </div>
-</div>
-
-<div class="footer">
-    <div class="container">
-        <div class="row">
-
-            <div class="col-md-3">
-                <h4 class="footer-header">About the gang</h4>
-                <ul class="footer-list">
-                    <li><a href="why.html">Why SoftUni</a></li>
-                    <li><a href="team.html">Team ONYXIA</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-separator pull-left"></div>
-
-            <div class="col-md-3">
-                <h4 class="footer-header">The fun stuff</h4>
-                <ul class="footer-list">
-                    <li><a href="pictures.html">Pictures</a></li>
-                    <li><a href="gifs.html">Moving images</a></li>
-                    <li><a href="softuni_jokes.html">SoftUni jokes</a></li>
-                </ul>
-            </div>
-
-            <div class="footer-separator pull-left"></div>
-
-            <div class="col-md-4">
-                <h4 class="footer-header">About us</h4>
-                <ul class="footer-list">
-                    <li>
-                        <a href="why.html">Why SoftUni</a>
-                    </li>
-                    <li>
-                        <a href="http://validator.w3.org/#validate_by_input" target="_blank">
-                            <input type="button" class="html5Validator" />
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank">
-                            <input type="button" class="css3Validator" />
-                        </a>
-                    </li>
-                </ul>
+                <div class="pull-right margin-top-5">
+                    <ul class="social-icons social-icons-color">
+                        <li>
+                            <a href="#" data-original-title="linkedin" class="linkedin"></a>
+                        </li>
+                        <li>
+                            <a href="#" data-original-title="facebook" class="facebook"></a>
+                        </li>
+                        <li>
+                            <a href="#" data-original-title="googleplus" class="googleplus"></a>
+                        </li>
+                        <li>
+                            <a href="#" data-original-title="twitter" class="twitter"></a>
+                        </li>
+                    </ul>
+                </div>
             </div>
         </div>
-    </div>
-</div>
-<script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
-<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-<script type="text/javascript" src="js/bootstrap.min.js"></script>
-<script type="text/javascript" src="js/jquery.themepunch.plugins.min.js"></script>
-<script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
-<script type="text/javascript" src="js/main.js"></script>
-<script src="js/handlebars.js"></script>
-<script type="text/javascript">
-window.onload = function () {
-	 var members = [{
-	     imgSrc: 'img/team/ms.jpg',
-		name: 'Momchil Stefanov',
-		accountName: 'a',
-		city: 'a',
-		email: 'a',
-		githubPage: 'a',
-		workDone: 'a'
-	}, {
-		imgSrc: 'img/team/ia.png',
-		name: 'Ivan Atanasov',
-		accountName: 'faust-eight',
-		city: 'Pravets',
-		email: 'atanassoff.i@gmail.com',
-		githubPage: 'https://github.com/faust-eight',
-		workDone: 'Site Template'
-	}, {
-	    imgSrc: 'img/team/md.png',
-		name: 'Milen Donchev',
-		accountName: 'c',
-		city: 'c',
-		email: 'c',
-		githubPage: 'c',
-		workDone: 'c'
-	}, {
-	    imgSrc: 'img/team/2384663921_192.jpg',
-		name: 'Kaloqn Dimitrov',
-		accountName: 'Occone',
-		city: 'Sofia',
-		email: 'info@oconne.com',
-		githubPage: 'https://github.com/oconne/',
-		workDone: 'why SoftUni content + design '
-	}, {
-		imgSrc: 'img/team/vy.png',
-		name: 'Ventsislav Yordanov',
-		accountName: 'Ventsislav',
-		city: 'Rousse',
-		email: 'venciity@abv.bg',
-		githubPage: 'https://github.com/Venciity',
-		workDone: 'add Gifs , Pictures , some jokes and styles for them'
-	}, {
-		imgSrc: '',
-		name: 'Georgi Yanakiev',
-		accountName: 'f',
-		city: 'f',
-		email: 'f',
-		githubPage: 'f',
-		workDone: 'f'
-	}, {
-		imgSrc: '',
-		name: 'Dian Atanasov',
-		accountName: 'g',
-		city: 'g',
-		email: 'g',
-		githubPage: 'g',
-		workDone: 'g'
-	}];
-	 
-	var membersListContainer = document.getElementById('members');
 
-	var membersListTemplate = Handlebars.compile((document.getElementById('members-template')).innerHTML);
+        <nav class="navbar navbar-default" role="navigation">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                </div>
 
-	// empty the container
-	while (membersListContainer.firstChild) {
-		membersListContainer.removeChild(membersListContainer.firstChild);
-	}
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav">
+                        <li>
+                            <a href="index.html"><i class="glyphicon glyphicon-home"></i> Home</a>
+                        </li>
+                        <li><a href="gifs.html"><i class="glyphicon glyphicon-film"></i> Moving images</a></li>
+                        <li><a href="pictures.html"><i class="glyphicon glyphicon-picture"></i> Pictures</a></li>
+                        <li><a href="softuni_jokes.html"><i class="glyphicon glyphicon-comment"></i> SoftUni Jokes</a></li>
+                        <li><a href="why.html"><i class="glyphicon glyphicon-question-sign"></i> Why SoftUni</a></li>
+                        <li class="active"><a href="team.html"><i class="glyphicon glyphicon-user"></i> Team ONYXIA</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="containerOni">
+            <div class="row">
+                <div id="oniLogo">
+                    <div><h2>Web Fundamentals (HTML + CSS) май 2014 TEAM "ONYXIA"</h2></div>
+                    <div><img src="img/softuni_logo.jpg" alt="Alternate Text"/></div>
+                </div>
+                <div class="thumb" index="0">
+                    <input type="button" name="name" value="Momchil Stefanov " />
+                </div>
+                <div class="thumb" index="1">
+                    <input type="button" name="name" value="Ivan Atanasov " />
+                </div>
+                <div class="thumb" index="2">
+                    <input type="button" name="name" value="Milen Donchev " />
+                </div>
+                <div class="thumb" index="3">
+                    <input type="button" name="name" value="Kaloqn Dimitrov " />
+                </div>
+                <div class="thumb" index="4">
+                    <input type="button" name="name" value="Ventsislav Yordanov" />
+                </div>
+                <div class="thumb" index="5">
+                    <input type="button" name="name" value="Georgi Yanakiev " />
+                </div>
+                <div class="thumb" index="6">
+                    <input type="button" name="name" value="Dian Atanasov " />
+                </div>
 
-	membersListContainer.innerHTML = membersListTemplate({
-		members: members
-	});
-};
-</script>
-	
-<script type="text/javascript">
-    $(document).ready(function () {
-        Index.initRevolutionSlider();
-    });
-</script>
-</body>
+                <div id="members"></div>
+                <script id="members-template" type='text/x-handlebars-template'>
+                    {{#each members}}
+                    <div class="submenu" style="display:none">
+                    <img src="{{imgSrc}}" alt="{{name}}"/>
+                    <div class="sectionOni">
+                    <div>Name:</div>
+                    <div>{{name}}</div>
+                    </div>
+                    <div class="sectionOni">
+                    <div>SoftUni Account Name:</div>
+                    <div>{{accountName}}</div>
+                    </div>
+                    <div class="sectionOni">
+                    <div>City:</div>
+                    <div>{{city}}</div>
+                    </div>
+                    <div class="sectionOni">
+                    <div>Email:</div>
+                    <div>{{email}}</div>
+                    </div>
+                    <div class="sectionOni">
+                    <div>GitHub Page:</div>
+                    <div><a href="{{githubPage}}">{{githubPage}}</a></div>
+                    </div>
+                    <div class="sectionOni">
+                    <div>Work on the Team Project:</div>
+                    <div>{{workDone}}</div>
+                    </div>
+                    </div>
+                    {{/each}}
+                </script>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="container">
+                <div class="row">
+
+                    <div class="col-md-3">
+                        <h4 class="footer-header">About the gang</h4>
+                        <ul class="footer-list">
+                            <li><a href="why.html">Why SoftUni</a></li>
+                            <li><a href="team.html">Team ONYXIA</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-separator pull-left"></div>
+
+                    <div class="col-md-3">
+                        <h4 class="footer-header">The fun stuff</h4>
+                        <ul class="footer-list">
+                            <li><a href="pictures.html">Pictures</a></li>
+                            <li><a href="gifs.html">Moving images</a></li>
+                            <li><a href="softuni_jokes.html">SoftUni jokes</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="footer-separator pull-left"></div>
+
+                    <div class="col-md-4">
+                        <h4 class="footer-header">About us</h4>
+                        <ul class="footer-list">
+                            <li>
+                                <a href="why.html">Why SoftUni</a>
+                            </li>
+                            <li>
+                                <a href="http://validator.w3.org/#validate_by_input" target="_blank">
+                                    <input type="button" class="html5Validator" />
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://jigsaw.w3.org/css-validator/#validate_by_input" target="_blank">
+                                    <input type="button" class="css3Validator" />
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+        <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+        <script type="text/javascript" src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/jquery.themepunch.plugins.min.js"></script>
+        <script type="text/javascript" src="js/jquery.themepunch.revolution.min.js"></script>
+        <script type="text/javascript" src="js/main.js"></script>
+        <script src="js/handlebars.js"></script>
+        <script type="text/javascript">
+            window.onload = function() {
+                var members = [{
+                        imgSrc: 'img/team/ms.jpg',
+                        name: 'Momchil Stefanov',
+                        accountName: 'a',
+                        city: 'a',
+                        email: 'a',
+                        githubPage: 'a',
+                        workDone: 'a'
+                    }, {
+                        imgSrc: 'img/team/ia.png',
+                        name: 'Ivan Atanasov',
+                        accountName: 'faust-eight',
+                        city: 'Pravets',
+                        email: 'atanassoff.i@gmail.com',
+                        githubPage: 'https://github.com/faust-eight',
+                        workDone: 'Site Template'
+                    }, {
+                        imgSrc: 'img/team/md.png',
+                        name: 'Milen Donchev',
+                        accountName: 'c',
+                        city: 'c',
+                        email: 'c',
+                        githubPage: 'c',
+                        workDone: 'c'
+                    }, {
+                        imgSrc: 'img/team/2384663921_192.jpg',
+                        name: 'Kaloqn Dimitrov',
+                        accountName: 'Occone',
+                        city: 'Sofia',
+                        email: 'info@oconne.com',
+                        githubPage: 'https://github.com/oconne/',
+                        workDone: 'why SoftUni content + design '
+                    }, {
+                        imgSrc: 'img/team/vy.png',
+                        name: 'Ventsislav Yordanov',
+                        accountName: 'Ventsislav',
+                        city: 'Rousse',
+                        email: 'venciity@abv.bg',
+                        githubPage: 'https://github.com/Venciity',
+                        workDone: 'add Gifs , Pictures , some jokes and styles for them'
+                    }, {
+                        imgSrc: '',
+                        name: 'Georgi Yanakiev',
+                        accountName: 'f',
+                        city: 'f',
+                        email: 'f',
+                        githubPage: 'f',
+                        workDone: 'f'
+                    }, {
+                        imgSrc: '',
+                        name: 'Dian Atanasov',
+                        accountName: 'g',
+                        city: 'g',
+                        email: 'g',
+                        githubPage: 'g',
+                        workDone: 'g'
+                    }];
+
+                var membersListContainer = document.getElementById('members');
+
+                var membersListTemplate = Handlebars.compile((document.getElementById('members-template')).innerHTML);
+
+                // empty the container
+                while (membersListContainer.firstChild) {
+                    membersListContainer.removeChild(membersListContainer.firstChild);
+                }
+
+                membersListContainer.innerHTML = membersListTemplate({
+                    members: members
+                });
+            };
+        </script>
+
+        <script type="text/javascript">
+            $(document).ready(function() {
+                Index.initRevolutionSlider();
+            });
+        </script>
+    </body>
 </html>

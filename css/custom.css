@@ -844,3 +844,8 @@ Slider
 .caption_joke {
     font-weight: bold;
 }
+
+.Headings {
+    text-align:center;
+    font-family:"Courier New", Courier, monospace;
+}

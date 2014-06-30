@@ -615,7 +615,7 @@ Slider
 }
 
 .inter_active {
-    background-size: 100% 200%;
+    background-size: cover;
     transition: all 1.5s ease;
     text-indent: 20px;
     width: 100%;
@@ -626,7 +626,7 @@ Slider
 }
 
 .inter_active:hover {
-    background-position: 100% 100%;
+    background-position: 350px 0px;
 }
 
 .clicked {

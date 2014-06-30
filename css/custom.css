@@ -245,23 +245,25 @@ Slider
     margin-left:20px;
 }  
 #menu div:hover > div {
-		display: block;
-	}
+    display: block;
+}
 .submenu{
     padding-top:30px;
     font-size:1.2em;
     margin:50px 50px;
     background:white;
-    width:800px;
+    width:85%;
     border:1px solid #464646;
     border-radius:10px;
     color:#464646;
     float:left;
-    margin-left:200px;
+    margin-left:10px;
 }
+
 .submenu div{
     padding-left:20px;
 }
+
 .submenu img{
     max-width:300px;
     max-height:200px;
@@ -272,14 +274,15 @@ Slider
     border:1px solid #464646;
     border-radius:5px;
 }
+
 .oniText{
     padding-left:120px;
     margin-bottom:50px;
 }
+
 .sectionOni{
-    
     text-align:left;
-    width:550px;
+    width:80%;
     float:left;
     display:inline-block;
     border-bottom:1px solid #464646;
@@ -291,42 +294,43 @@ Slider
     margin-right:40px;
 }
 
-  .sectionOni:last-child div{
+.sectionOni:last-child div{
     float:left;
     width:90%;
     margin-right:40px;
-  }
-  .thumb{
-      float:left;
-      margin-top:100px;
-      margin-right:7px;
-      
+}
 
-  }
-  .thumb div:first-child{
-      float:left;
-      padding-top:17px;
-      padding-left:15px;
-  }
-  .thumb img{
-      border:1px solid white;
-      width:30px;
-      margin-top:10px;
-  }
-  .thumb [type="button"]{
-       background: -webkit-linear-gradient(90deg, #464646  50% , blue); /* For Safari 5.1 to 6.0 */
-      background: -o-linear-gradient(90deg,#464646  50% , blue); /* For Opera 11.1 to 12.0 */
-      background: -moz-linear-gradient(90deg, #464646  50%, blue); /* For Firefox 3.6 to 15 */
-      background: linear-gradient(90deg,#464646 50%, #0088cc); /* Standard syntax (must be last) */
-      color:white;
-        width:150px;
-      height:50px;
-      font-size:0.7em;
-       border:1px solid #464646;
-      border-top-right-radius:5px;
-      border-bottom-left-radius:5px;
-      margin-right:20px;
-  }
+.thumb{
+    float:left;
+    margin-top:10px;
+    margin-right:7px;
+}
+
+.thumb div:first-child{
+    float:left;
+    padding-top:17px;
+    padding-left:15px;
+}
+
+.thumb img{
+    border:1px solid white;
+    width:30px;
+    margin-top:10px;
+}
+.thumb [type="button"]{
+    background: -webkit-linear-gradient(90deg, #464646  50% , blue); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(90deg,#464646  50% , blue); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(90deg, #464646  50%, blue); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(90deg,#464646 50%, #0088cc); /* Standard syntax (must be last) */
+    color:white;
+    width:150px;
+    height:50px;
+    font-size:0.7em;
+    border:1px solid #464646;
+    border-top-right-radius:5px;
+    border-bottom-left-radius:5px;
+    margin-right:20px;
+}
 
 body {
     background-color: #f0f0f0;
@@ -771,7 +775,7 @@ Slider
 .SoftUniJokesList {
     background-color: #f0f0f0;
     color: white;
-    
+
     padding: 10px;
     border-radius: 10px;
     font-size: 18px;

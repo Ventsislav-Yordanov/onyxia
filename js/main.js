@@ -34,7 +34,7 @@ var Index = function() {
                 submenu[i].style.display = 'none';
             }
 
-            var index = this.getAttribute("index");
+            var index = this.getAttribute("tabIndex");
             if (previousIndex != index) {
                 submenu[index].style.display = 'block';
             }

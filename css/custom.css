@@ -220,7 +220,7 @@ Slider
     text-align:left;
     width:90%;
     float:left;
-    background:#464646;
+    background:#B4B4B4;
     color:white;
 }
 #oniLogo div{
@@ -282,11 +282,12 @@ Slider
 
 .sectionOni{
     text-align:left;
-    width:80%;
+    width:70%;
     float:left;
     display:inline-block;
-    border-bottom:1px solid #464646;
-    border-width:10px;
+    border-bottom:1px solid #f1f1f1;
+    border-width:1px;
+    margin-bottom: 10px;
 }
 .sectionOni div{
     float:left;
@@ -318,11 +319,7 @@ Slider
     margin-top:10px;
 }
 .thumb [type="button"]{
-    background: -webkit-linear-gradient(90deg, #464646  50% , blue); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(90deg,#464646  50% , blue); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(90deg, #464646  50%, blue); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(90deg,#464646 50%, #0088cc); /* Standard syntax (must be last) */
-    color:white;
+    background-color: #848484;
     width:150px;
     height:50px;
     font-size:0.7em;
@@ -330,6 +327,7 @@ Slider
     border-top-right-radius:5px;
     border-bottom-left-radius:5px;
     margin-right:20px;
+    color: #fff;
 }
 
 body {
@@ -756,7 +754,7 @@ Slider
 }
 
 .figureImage  figcaption {
-    background-color:rgba(0, 0, 0, 0.8); 
+    background-color:#B4B4B4; 
     color:white;
     border-radius:15px 0 15px 15px;
     width:40%;
@@ -775,18 +773,18 @@ Slider
 .SoftUniJokesList {
     background-color: #f0f0f0;
     color: white;
-
     padding: 10px;
     border-radius: 10px;
-    font-size: 18px;
+    font-size: 16px;
 }
 
 .SoftUniJokesList li {
-    background-color: #444;
+    background-color: #B4B4B4;
     list-style-position: inside;
     margin: 10px;
     padding: 10px;
     border-radius: 15px 0 15px 15px;
+    border: 1px solid #a0a0a0;
 }
 
 .logo a {
@@ -819,6 +817,7 @@ Slider
 
 .knows-html {
     font-size: 18px;
+    margin-bottom: 20px !important;
 }
 
 .index-jokes .joke {

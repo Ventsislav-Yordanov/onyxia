@@ -624,6 +624,7 @@ Slider
     height: 170px;
     border-radius: 25px 25px 0 0;
     border-bottom: 1px solid #000;
+    background-repeat: no-repeat;
 
 }
 
@@ -836,6 +837,7 @@ Slider
 
 .thumbnail {
     min-height: 400px;
+    text-align: center;
 }
 
 .index-why-list {
@@ -850,4 +852,24 @@ Slider
 .Headings {
     text-align:center;
     font-family:"Courier New", Courier, monospace;
+}
+
+.img-nerd1 {
+    width: 50%;
+    height: 50%;
+}
+
+.google-map {
+    width: 100%;
+    height: 100px;
+}
+
+table .td-60 {
+    width: 60%;
+    margin:7px 0px 2px 2px;
+}
+
+.why-info {
+    color: #3C418A;
+    font-family: Calibri;
 }

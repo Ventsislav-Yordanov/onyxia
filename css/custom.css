@@ -808,6 +808,7 @@ Slider
     padding:0;
     width:82px;
     height:17px;
+    padding-bottom:10px;
 }
 
 .css3Validator {

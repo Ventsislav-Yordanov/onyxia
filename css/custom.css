@@ -877,3 +877,7 @@ table .td-60 {
     color: #3C418A;
     font-family: Calibri;
 }
+
+.validators {
+    margin:10px 0;
+}
